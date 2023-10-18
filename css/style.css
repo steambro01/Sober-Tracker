@@ -1,0 +1,41 @@
+#tracker{
+    border: 5px solid white;
+    max-width: fit-content;
+    padding: 15px;
+    margin: 10vh auto ;
+}
+#tracker h1{
+    color: orange;
+}
+#tracker p{
+    font-size: 150%;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color: orange;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav a{ /*important!!!
+    come back to fix links position*/
+    font-size: 300%;/* makes font 3x default font size*/
+    text-align: center;
+    border: 15px;
+    color: black; /*changes links color to black*/
+    text-decoration: none; /*removes underline*/
+    margin: 3vh;/*gives space in between links*/
+
+}
+#date{
+    color: white;
+    font-style: italic;
+    
+}

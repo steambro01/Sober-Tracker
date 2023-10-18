@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(0,0,0);
+    color:rgb(256,256,256);
+}
+body h1{
+    text-align: center;
+    color: orange; 
+}
+fieldset h2{
+    font-size: large;
+}
+
+
+/* css page not linking*/
+/* fixed by adding rel into html "link" element*/
